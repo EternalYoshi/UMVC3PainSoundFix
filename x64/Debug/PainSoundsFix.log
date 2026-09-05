@@ -1,0 +1,14 @@
+﻿  In file included from dllmain.cpp:12:
+.\MemoryMgr.h(59,47): warning : 'make_checked_array_iterator<unsigned char *>' is deprecated: warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning. [-Wdeprecated-declarations]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iterator(1700,1): message : 'make_checked_array_iterator<unsigned char *>' has been explicitly marked deprecated here
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\yvals_core.h(1445,7): message : expanded from macro '_DEPRECATE_STDEXT_ARR_ITERS'
+  In file included from dllmain.cpp:12:
+.\MemoryMgr.h(124,53): warning : 'make_checked_array_iterator<const unsigned char *>' is deprecated: warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning. [-Wdeprecated-declarations]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iterator(1700,1): message : 'make_checked_array_iterator<const unsigned char *>' has been explicitly marked deprecated here
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\yvals_core.h(1445,7): message : expanded from macro '_DEPRECATE_STDEXT_ARR_ITERS'
+dllmain.cpp(77,8): warning : variable 'errorMessageID' set but not used [-Wunused-but-set-variable]
+dllmain.cpp(98,8): warning : unused variable 'errorMessageID' [-Wunused-variable]
+dllmain.cpp(99,8): warning : unused variable 'messageBuffer' [-Wunused-variable]
+dllmain.cpp(106,6): warning : unused variable 'TempLength' [-Wunused-variable]
+dllmain.cpp(218,15): warning : unused variable 'patSave' [-Wunused-variable]
+  PainSoundsFix.vcxproj -> E:\ULTIMATE MARVEL VS. CAPCOM 3\Scripts\PainSoundsFix.asi
